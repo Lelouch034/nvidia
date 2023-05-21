@@ -1,0 +1,213 @@
+/* *********GENERAL******** */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+    /* ***********HEADER******* */
+nav img {   
+    height: 150px;
+}
+
+
+/* *******NAV****** */
+
+nav  {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+
+/* ********BANNER*********** */
+
+
+.image-banner {
+    position: relative;
+  }
+  
+  .image-banner
+   img {
+    
+    width: 100%;
+    height: 250px;
+  }
+  
+  .banner-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    background: rgba(51, 170, 51, 0.2);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .text_header {
+     color: white;
+  }
+
+
+  /* *******BUTTON_HEADER******* */
+
+
+  .btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(51, 170, 51, 0.8);
+}
+
+
+.btn span {
+    margin-left: 5px;
+  }
+
+
+
+/* **********MAIN*********** */
+
+main {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* *************ARTICLE********* */
+  
+
+
+
+
+
+
+
+
+
+  
+  /********ASIDE*********** */
+
+
+  aside  img {
+    width: 150px;
+  }
+
+ aside {
+    background-color: #76b900;
+    color: white;
+    text-align: center;
+    padding: 0 30px;
+ }
+
+ aside h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+
+ aside p {
+    padding-top: 20px;
+    text-align: justify;
+ }
+
+
+ .font-awesome {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+
+
+
+ hr {
+    border: 1px solid #76b900;
+ }
+
+ 
+ .triangle-inverse {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #76b900;
+    transform: translateX(2500%);
+  }
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+form h3 {
+    margin-bottom: 20px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: #76b900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.galerie img  {
+    width: 150px;
+}
+
+.galerie-right img {
+    width: 150px;
+}
+
+
+
